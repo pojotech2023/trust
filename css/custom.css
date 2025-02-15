@@ -1,0 +1,75 @@
+.footer-row2 .navbar-brand img{
+    height:150px !important;
+    /* width: 200px; */
+}
+
+.text-justify{
+    text-align: justify;
+}
+.main-header{
+    background-color: #fff;
+}
+.nav-bg-b .custom-nav .nav-list li a.menu-links{
+    color:#050748
+}
+
+.ptb-30{
+    padding : 30px 0;
+}
+
+.ptb-60{
+    padding : 60px 0;
+}
+/* floating action button whatsapp */
+.fab-whatsapp {
+    position: fixed;
+    bottom: 100px;
+    right: 15px;
+    background-color: #25d366;
+    border-radius: 50%;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.2);
+    z-index: 9999;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.fab-whatsapp img {
+    width: 45px;
+    height: 45px;
+}
+
+.fab-whatsapp:hover {
+    background-color: #128c7e;
+    /* Darker green on hover */
+}
+.full-image-card {
+    height: 100%; 
+}
+.image-div {
+    height: 250px;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+}
+.case-img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; 
+}
+.custom-card {
+    border: 3px solid blue; /* Blue border */
+    padding: 20px;
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.2); /* Light blue shadow */
+}
+
+.custom-table {
+    font-size: 20px; /* Increase font size */
+    font-weight: bold;
+    color: #000; /* Black font */
+}
+
+.custom-table td {
+    padding: 15px;
+}
