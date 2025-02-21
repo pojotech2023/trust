@@ -63,15 +63,21 @@
     border-radius: 10px; /* Rounded corners */
     box-shadow: 0px 4px 8px rgba(0, 0, 255, 0.2); /* Light blue shadow */
 }
-
-.custom-table {
-    font-size: 20px; /* Increase font size */
-    font-weight: bold;
-    color: #000; /* Black font */
+.custom-table td {
+    padding: 10px;
+    white-space: nowrap; /* Prevent text from wrapping */
+    font-size: 16px;
 }
 
-.custom-table td {
-    padding: 15px;
+.table-responsive {
+    overflow-x: auto; /* Ensures horizontal scroll on small screens */
+}
+
+@media (max-width: 768px) {
+    .custom-table td {
+        font-size: 14px; /* Smaller font size for mobile */
+    }
+   
 }
 .bank-det p{
     font-weight: 700 !important;
@@ -80,4 +86,12 @@
 }
 .text-red{
     color: red;
+}
+.srcl1 {
+    height: 230px;
+}
+@media (max-width: 768px) {
+    .srcl1 {
+        height: 285px; /* Adjust as per requirement */
+    }
 }
