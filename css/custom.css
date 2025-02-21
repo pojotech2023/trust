@@ -73,3 +73,11 @@
 .custom-table td {
     padding: 15px;
 }
+.bank-det p{
+    font-weight: 700 !important;
+    font-size: x-large;
+    font-size: 18px !important;
+}
+.text-red{
+    color: red;
+}
